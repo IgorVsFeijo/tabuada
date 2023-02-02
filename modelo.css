@@ -1,0 +1,58 @@
+body{
+    font: normal 12pt Arial;
+    text-align: center;
+    background-color:  rgb(141, 192, 192);
+}
+
+header{
+    color: white;
+}
+
+.entr{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+section{
+    background-color: white;
+    max-width: 500px;
+    text-align: left;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer{
+    font-style: italic;
+    color: white;
+}
+
+table{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    margin: auto;
+    font: normal 12pt monospace;
+}
+
+tr{
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+td{
+    padding: 0px 50px;
+    text-align: left;
+}
+
+tbody:nth-child(odd){
+    background-color: rgb(141, 192, 192);
+}
+
+@media screen and (max-width: 400px){
+    input#num{
+        width: 120px;
+    }
+}
